@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --body-bg: rgb(92, 154, 235);
+    --body-text: rgb(0, 0, 0);
+    --form-bg:rgb(255, 255, 255);
+    --form-text: black;
+    --header-bg:white;
+    --button-color: rgb(22, 67, 126);
+    --a-text: blue;
+    --bu-color: none;
+    
+
+}
+.dark_tema{
+    --body-bg: #30578f;
+    --form-text: white;
+    --form-bg: rgb(10, 33, 66);
+    --button-color: rgb(92, 154, 235);
+    --border-form:none;
+    --a-text: rgb(255, 255, 255);
+    --bu-color: white;
+}
+
+body{ 
+    background-color: var(--body-bg);
+    
+}
+header{
+    color: var(--header-bg);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 165px;
+    
+}
+form{
+    background-color: var(--form-bg);
+    color: var(--form-text);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 430px;
+    height: 550PX;
+    border-radius: 15px;
+}
+.formheader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--button-color);
+
+}
+#button{
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: var(--button-color);
+    background-color: var(--button-color)
+}
+.cabecalho{
+    margin-top: 40px;
+    font-size: 20PX;
+    margin-left: 25px;
+}
+.meio{
+    margin-top: 40px;
+    margin-left: 25px;
+
+}
+.butao{ 
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 30px;
+    width: 350px;
+    height: 30px;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.olho{
+    width: 20px;
+    height: 20px;
+    background-color: var();
+
+   
+}
+input{
+    width: 350px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+
+}
+.bu{
+     background: var(--bu-color);
+     border-color: transparent;
+     border-radius: 15px;
+}
+
+.mel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.envia{
+  
+    background-color: var(--body-bg);
+    margin-top: 50px;
+    width: 350px;
+    height: 39px;
+    margin-right: 10px;
+    border-radius: 10px;
+    color: var(--header-bg);
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+   
+a{  
+    color: var(--a-text);
+    
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
