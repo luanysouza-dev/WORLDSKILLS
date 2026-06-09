@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 250px;
+    background-color: rgb(23, 103, 179);
+}
+.container{
+    background-color: rgb(27, 27, 27);
+    width: 250px;
+    height: 360px;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 0 2px  100px blue;
+    transition: ease-in-out 0.5s;
+
+
+}
+.container:hover{
+     transform: scale(1.95)
+}
+.contador{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.mais:active{
+    transform: scale(1.05);
+}
+.menos:active{
+    transform: scale(0.80);
+}
+
+.mais{
+    background-color: rgb(14, 151, 25);
+    color: aliceblue;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.menos{
+    background-color: rgb(182, 20, 20);
+    color: aliceblue;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.tudo{
+    background-color: aliceblue;
+    width: 200px;
+    height: 260px;
+    border-radius: 15px;
+    margin-left: 25px;
+}

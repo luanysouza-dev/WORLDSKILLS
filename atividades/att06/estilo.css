@@ -1,0 +1,23 @@
+
+:root{
+    --body-bg: blue
+    
+}
+
+.modo_escuro{
+    --body-bg: black
+}
+
+body{
+    background-color: var(--body-bg);
+}
+button{
+    background-color: rgb(255, 0, 234);
+    width: 600px;
+    height: 300px;
+    border-radius: 300px;
+}
+img{
+     width: 600px;
+    height: 300px;
+}

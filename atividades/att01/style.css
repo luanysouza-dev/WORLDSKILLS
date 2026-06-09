@@ -1,0 +1,29 @@
+.butao {
+    background-color: #c241b1; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remove a borda padrão */
+    padding: 12px 24px; /* Espaçamento interno (vertical e horizontal) */
+    font-size: 50px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    border-radius: 150px; /* Arredonda os cantos */
+    cursor: pointer; /* Mostra a mãozinha ao passar o mouse */
+    transition: 0.3s; /* Suaviza as animações */
+    width: 600px;
+    height: 300px;
+}
+
+.butao:hover {
+    background-color: #3730a3; /* Muda a cor ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho em 5% */
+}
+
+.butao:active {
+    transform: scale(0.95); /* Diminui o tamanho enquanto clica */
+}
+
+body {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 80vh; /* Ocupa toda a altura da tela */
+}
