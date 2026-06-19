@@ -1,0 +1,35 @@
+:root{
+    --body-bg: rgb(108, 108, 219);
+    --h1-color: black;
+  
+}
+.dark_tema{
+    --body-bg: rgb(55, 55, 158);
+    --h1-color: rgb(61, 86, 170);
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--body-bg) ;
+    color: var(--h1-color);
+}
+.dark{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: var(--body-bg);
+    color: aliceblue;
+}
+.base{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    margin-top: 190px;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    color: var(--body-bg);
+}
